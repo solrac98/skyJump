@@ -1,3 +1,6 @@
+[Ll]ogs/
+*.logs
+*.meta
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
