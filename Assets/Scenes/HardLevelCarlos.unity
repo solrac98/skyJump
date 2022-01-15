@@ -124,7 +124,11 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &86582555
+=======
+--- !u!1 &537747032
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
 =======
 --- !u!1 &537747032
 >>>>>>> parent of fc7fa4b (character/platform/hardlevel)
@@ -135,6 +139,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
 <<<<<<< HEAD
   - component: {fileID: 86582557}
   - component: {fileID: 86582556}
@@ -149,13 +154,26 @@ GameObject:
   m_Name: Main Camera
   m_TagString: MainCamera
 >>>>>>> parent of fc7fa4b (character/platform/hardlevel)
+=======
+  - component: {fileID: 537747035}
+  - component: {fileID: 537747034}
+  - component: {fileID: 537747033}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!212 &86582556
 SpriteRenderer:
+=======
+--- !u!81 &537747033
+AudioListener:
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
 =======
 --- !u!81 &537747033
 AudioListener:
@@ -164,6 +182,7 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 86582555}
   m_Enabled: 1
@@ -245,6 +264,12 @@ BoxCollider2D:
 --- !u!20 &537747034
 Camera:
 >>>>>>> parent of fc7fa4b (character/platform/hardlevel)
+=======
+  m_GameObject: {fileID: 537747032}
+  m_Enabled: 1
+--- !u!20 &537747034
+Camera:
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -252,6 +277,7 @@ Camera:
   m_GameObject: {fileID: 537747032}
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Size: {x: 5.4, y: 5.1781583}
   m_EdgeRadius: 0
@@ -327,6 +353,8 @@ Camera:
   serializedVersion: 2
 =======
 >>>>>>> parent of fc7fa4b (character/platform/hardlevel)
+=======
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
@@ -361,6 +389,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &107310999
 GameObject:
@@ -861,11 +890,15 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &350832817
+=======
+--- !u!4 &537747035
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 350832815}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.8, y: 51.359673, z: 0}
@@ -6464,3 +6497,13 @@ PrefabInstance:
 =======
   m_SourcePrefab: {fileID: 100100000, guid: 0d7cc064a14eebd4187a2d07ac5d6066, type: 3}
 >>>>>>> parent of f57da36 (level generator/tramp)
+=======
+  m_GameObject: {fileID: 537747032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of fc7fa4b (character/platform/hardlevel)
