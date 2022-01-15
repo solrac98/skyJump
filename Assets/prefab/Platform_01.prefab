@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 750242972092663782}
   - component: {fileID: 750242972092663783}
-  - component: {fileID: 750242972092663781}
   - component: {fileID: 750242972092663780}
   - component: {fileID: 9208622499980189225}
+  - component: {fileID: 1597462106064312100}
   m_Layer: 0
   m_Name: Platform_01
   m_TagString: Untagged
@@ -85,32 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &750242972092663781
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 750242972092663784}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: -2.0096366, y: 0.7982334}
-  - {x: -2.0426826, y: 0.8189905}
-  - {x: 2.036972, y: 0.8067736}
-  - {x: 2.0344129, y: 0.8413807}
-  - {x: 2.0096374, y: 0.8198058}
-  - {x: 2.0096366, y: 0.8198063}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!114 &750242972092663780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,3 +117,25 @@ PlatformEffector2D:
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
+--- !u!68 &1597462106064312100
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750242972092663784}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -1.8788468, y: 0.81999505}
+  - {x: 1.9122263, y: 0.8199957}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
